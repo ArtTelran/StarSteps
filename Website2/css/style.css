@@ -1,0 +1,138 @@
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: #000000;
+        color: white;
+    }
+
+    .navbar {
+    }
+
+    .nav-link, .navbar-brand {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav-link {
+        margin-right: 1em !important;
+    }
+
+    .nav-link:hover {
+        color: #000;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .header {
+        background-image: url('../header-background.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .overlay {
+        position: absolute;
+        min-height: auto;
+        min-width: auto;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .description {
+        left: 30%;
+        position: relative;
+        top: 45%;
+        background: transparent;
+        text-align: center;
+        transform: translate(-50%, -55%);
+    }
+
+    .description h1 {
+        color: #6ab446;
+    }
+
+    .description p {
+        color: #fff;
+        font-size: 1.3rem;
+        line-height: 1.5%;
+    }
+
+    .sideButton {
+        position: relative;
+        border: 1px solid #0c63e4;
+        background: #7abaff;
+        border-radius: 0;
+        color: #1c1f23;
+    }
+
+    .sideButton:hover {
+        border: 1px solid #fff;
+        background: #fff;
+        color: #000;
+    }
+
+    /*    Feature Section*/
+    .features {
+        margin: 4em auto;
+        padding: 1em;
+        position: relative;
+    }
+
+    .feature-title {
+        color: floralwhite;
+        font-size: 1em;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .features img {
+        -webkit-box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.4);
+        box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+    }
+
+    .features .form-control, .features input {
+        border-radius: 0;
+    }
+
+    .features .btn {
+        background-color: #589b37;
+        border: 1px solid #589b37;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .features .btn:hover {
+        background-color: #333;
+        border: 2px dot-dash #333;
+    }
+ /*.form-control {
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        resize:none;
+        resize:vertical;
+  */
+    textarea { width: 100%;
+               resize:none;
+
+    }
+    /*Footer Styling*/
+    .page-footer {
+background-color: #222;
+color: #ccc;
+padding: 60px 0 30px;
+}
+
+.footer-copyright {
+color: #666;
+padding: 40px 0;
+}
+    /*    End of Footer Sryling*/
