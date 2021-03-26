@@ -89,38 +89,9 @@
     "languages": ["Ruby"],
     "tools": ["RoR"]
   },
+  
   {
     "id": 7,
-    "company": "Shortly",
-    "logo": "./images/shortly.svg",
-    "new": false,
-    "featured": false,
-    "position": "Junior Developer",
-    "role": "Frontend",
-    "level": "Junior",
-    "postedAt": "2w ago",
-    "contract": "Full Time",
-    "location": "Worldwide",
-    "languages": ["HTML", "JavaScript"],
-    "tools": ["Sass"]
-  },
-  {
-    "id": 8,
-    "company": "Insure",
-    "logo": "./images/insure.svg",
-    "new": false,
-    "featured": false,
-    "position": "Junior Frontend Developer",
-    "role": "Frontend",
-    "level": "Junior",
-    "postedAt": "2w ago",
-    "contract": "Full Time",
-    "location": "USA Only",
-    "languages": ["JavaScript"],
-    "tools": ["Vue", "Sass"]
-  },
-  {
-    "id": 9,
     "company": "Eyecam Co.",
     "logo": "./images/eyecam-co.svg",
     "new": false,
@@ -135,7 +106,7 @@
     "tools": ["Django"]
   },
   {
-    "id": 10,
+    "id": 8,
     "company": "The Air Filter Company",
     "logo": "./images/the-air-filter-company.svg",
     "new": false,
